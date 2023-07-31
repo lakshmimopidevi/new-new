@@ -129,11 +129,11 @@
     		</repository>
 	    
        		<snapshotRepository>
-      		    	<id>nexus</id>
-      		    	<name>snapshot</name>
-      			<url>http://65.0.74.97:8081/repository/snapshot/</url>
+      		    <id>nexus</id>
+      		    <name>snapshot</name>
+      		    <url>http://65.0.74.97:8081/repository/snapshot/</url>
     		</snapshotRepository>
-    </distributionManagement>
+        </distributionManagement>
     <build>
         <plugins>
             <plugin>
